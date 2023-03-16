@@ -1,0 +1,30 @@
+{
+  "name": "project3",
+  "version": "1.0.0",
+  "description": "Check and compare given image with captured image ",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "cy:open": "npx cypress open",
+    "cy:run": "npx cypress run --env baseUrl=https://canary.api.meld.cx -- headed --spec"
+  },
+  "keywords": [
+    "e2e",
+    "cypress",
+    "automation",
+    "framework"
+  ],
+  "author": "Snigdha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anzuman06/CheckCaptureImage/issues"
+  },
+  "homepage": "https://github.com/Anzuman06/CheckCaptureImage#readme",
+  "devDependencies": {
+    "cypress-file-upload": "^5.0.8",
+    "cypress-image-diff-js": "^1.23.0"
+  },
+  "dependencies": {
+    "@types/pixelmatch": "^5.2.4"
+  }
+}
